@@ -675,7 +675,7 @@ public class UserController extends AbstractBaseController {
     }
 
     @GetMapping("/log")
-    (public String log(Model model, @Param("val") String val) {
+    public String log(Model model, @Param("val") String val) {
     	int intVal = -1;
     	String strLog = "";
     	try {
